@@ -1,3 +1,30 @@
-nav {
-  display: none;
+aside {
+  min-width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+nav {
+  /* display: none; */
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-basics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/* * {
+  border: 1px solid teal;
+} */
